@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto";
 }
 
 :root {
@@ -285,8 +285,68 @@ button:hover {
     height: 420px;
     margin-top: 100px;
     padding-top: 80px;
+    padding-left: 50px;
+    position: relative;
 }
 
 .logo-image {
-    
+    /* padding-left: 50px; */
+    height: 180px;
+    color: white;
+    width: 330px;
+}
+
+.footpara {
+    height: 38px;
+    font-weight: 100;
+    margin-top: 15px;
+    font-size: 1rem;
+    word-spacing: 2px;
+    letter-spacing: 0.3px;
+}
+
+.footpara p {
+    font-family: "roboto";
+    font-weight: 350;
+}
+.follow h1 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.border {
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+}
+
+.last {
+    color: white;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    left: 40%;
+}
+
+.contact  {
+    color: white;
+    position: absolute;
+    top: 80px;
+    right: 250px;
+}
+.contact p a {
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    font-size: .750rem;    
+}
+.contact p {
+    margin-top: 25px;
 }
