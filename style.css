@@ -8,13 +8,17 @@
 :root {
     --font-color: rgb(131, 48, 240);
 }
-
+body{
+    overflow-x: hidden;
+}
 .navbar {
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
+    
 }
 
 .logo {
@@ -224,13 +228,14 @@ button:hover {
     letter-spacing: 0.3px;
     color: var(--font-color);
     border-radius: 20px;
-    background-image: linear-gradient(rgb(202, 229, 255),white);
-    box-shadow: 10px 20px 100px -60px black ;
+    background-image: linear-gradient(rgb(202, 229, 255), white);
+    box-shadow: 10px 20px 100px -60px black;
     padding: 20px;
     position: relative;
     transition-property: all;
-    transition-duration:0.5s ;
+    transition-duration: 0.5s;
 }
+
 .cards img {
     position: absolute;
     top: 20px;
@@ -281,7 +286,7 @@ button:hover {
 
 
 .lastarea {
-    background-image: linear-gradient(rgb(104, 39, 255),rgb(127, 98, 255));
+    background-image: linear-gradient(rgb(104, 39, 255), rgb(127, 98, 255));
     height: 420px;
     margin-top: 100px;
     padding-top: 80px;
@@ -309,6 +314,7 @@ button:hover {
     font-family: "roboto";
     font-weight: 350;
 }
+
 .follow h1 {
     color: white;
     font-size: 1.5rem;
@@ -335,18 +341,70 @@ button:hover {
     left: 40%;
 }
 
-.contact  {
+.contact {
     color: white;
     position: absolute;
     top: 80px;
     right: 250px;
 }
+
 .contact p a {
     color: white;
     text-decoration: none;
     margin-top: 25px;
-    font-size: .750rem;    
+    font-size: .750rem;
 }
+
 .contact p {
     margin-top: 25px;
+}
+
+
+.topProfiles {
+    height: 200px;
+    padding: 30px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.profile {
+    height: 60px !important;
+    width: 250px;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 20px rgb(131, 48, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pImg>img {
+    height: 55px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.pLogo>img {
+    height: 130px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+
+.names {
+    height: 90%;
+}
+
+.names p,
+h2 {
+    font-size: 13px;
+}
+
+.names>h2 {
+    color: rgb(104, 39, 255);
 }
